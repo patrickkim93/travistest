@@ -1,8 +1,6 @@
 sudo: required
 language: node_js
-node_js: stable
-addons:
-  chrome: stable
+node_js: trusty
 before_install:
   - npm install -g bower
   - bower install
@@ -12,3 +10,4 @@ before_install:
   - sh -e /etc/init.d/xvfb start
   - sleep 3
 script: polymer test
+after_script: exit
