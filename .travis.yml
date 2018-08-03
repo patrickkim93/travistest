@@ -12,5 +12,5 @@ before_install:
   - sh -e /etc/init.d/xvfb start
 script: polymer test
 after_script: exit
- notifications:
-    slack: ehd-dev:BhmONLdq4ZJUB1zXPwCbmidO
+notifications:
+    slack: 'ehd-dev:BhmONLdq4ZJUB1zXPwCbmidO'
