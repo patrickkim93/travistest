@@ -10,8 +10,7 @@ before_install:
   - export DISPLAY=:99.0
   - echo $DISPLAY
   - sh -e /etc/init.d/xvfb start
-install: travis_wait 5 mvn install
-script: polymer test
+script: travis_wait 5 polymer test
 after_script: exit
 notifications:
     slack: 'ehd-dev:BhmONLdq4ZJUB1zXPwCbmidO'
