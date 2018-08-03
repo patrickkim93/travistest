@@ -1,4 +1,5 @@
 # \<my-el\>
+[![Build Status](https://travis-ci.org/patrickkim93/travistest.svg?branch=master)](https://travis-ci.org/patrickkim93/travistest)
 
 
 
