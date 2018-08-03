@@ -1,5 +1,4 @@
 sudo: required
-dist: trusty
 language: node_js
 node_js: stable
 addons:
@@ -11,4 +10,5 @@ before_install:
   - export DISPLAY=:99.0
   - echo $DISPLAY
   - sh -e /etc/init.d/xvfb start
+  - sleep 3
 script: polymer test
