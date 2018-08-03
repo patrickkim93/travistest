@@ -1,6 +1,6 @@
 sudo: required
 language: node_js
-node_js: trusty
+node_js: stable
 before_install:
   - npm install -g bower
   - bower install
